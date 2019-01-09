@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h1>Ajouter un élément dans la liste :</h1>
+    <form action="index1ajout.php" method="post">
+        <label for="surname">Prénom:</label> <input type="text" name="surname" id="surname">
+        <label for="name">Nom:</label> <input type="text" name="name" id="name">
+        <label for="age">Age:</label> <input type="text" name="age" id="age">
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+
+<div>
+    <h1>Supprimer un élément de la liste:</h1>
+<form action="index2sup.php" method="post">
+    <label for="id">ID:</label> <input type="text" name="id" id="id">
+    <input type="submit" value="Envoyer">
+</form>
+</div>
+
+<div>
+    <h1>Mettre à jour un élément:</h1>
+    <form action="index3update.php" method="post">
+        <label for="idU">ID:</label> <input type="text" name="idU" id="idU">
+        <label for="surnameU">Prénom:</label> <input type="text" name="surnameU" id="surnameU">
+        <label for="nameU">Nom:</label> <input type="text" name="nameU" id="nameU">
+        <label for="ageU">Age:</label> <input type="text" name="ageU" id="ageU">
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+
+<div>
+    <h1>Ajouter des Mugs</h1>
+    <form action="index5ajoutMug.php" method="post">
+        <label for="color">Ajouter Mug (couleur):</label> <input type="text" name="color" id="color">
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+
+<div>
+    <h1>Associer Mug et Eleve</h1>
+    <form action="index7assoMugEleve.php" method="post">
+        <label for="mugID">Mug ID:</label> <input type="text" name="mugID" id="mugID">
+        <label for="eleveID">Mug ID:</label> <input type="text" name="eleveID" id="eleveID">
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+
+
+</body>
+</html>
